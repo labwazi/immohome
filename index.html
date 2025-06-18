@@ -306,5 +306,37 @@
 
     renderListings();
   </script>
+	<footer class="text-center p-4 bg-dark">
+  <a href="mailto:contact@yourdomain.com" title="Email Us" class="email-icon">
+    <i class="fas fa-envelope"></i>
+  </a>
+</footer>
+
+<!-- Font Awesome (place in <head> or before </body>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Add this in a <style> block or your CSS file -->
+<style>
+  .email-icon {
+    display: inline-block;
+    background-color: gold;
+    color: white;
+    border-radius: 50%;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+  }
+
+  .email-icon i {
+    font-size: 24px;
+  }
+
+  .email-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px gold;
+    color: white;
+  }
+</style>
+
 </body>
 </html>
